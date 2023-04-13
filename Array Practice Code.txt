@@ -1,0 +1,34 @@
+package arrayPracticeProject;
+
+
+public class MyArray {
+
+	public static void main(String[] args) {
+		MyArray test = new MyArray();
+		
+		MyArray[] testArray = new MyArray[10];
+		
+		for(int i = 0; i < testArray.length; i++)
+		{
+			MyArray test2 = new MyArray();
+			testArray[i] = test2;
+			System.out.println(testArray[i]);
+		}
+		
+		
+		int[] intArray = new int[10];
+		int value = 10;
+
+		for(int i = 0; i < 10; i++)
+		{
+			intArray[i] = value;
+			value++;
+		}
+		
+		for(int i = 0; i < intArray.length; i++)
+		{
+			System.out.println(intArray[i]);
+		}
+	}
+
+}

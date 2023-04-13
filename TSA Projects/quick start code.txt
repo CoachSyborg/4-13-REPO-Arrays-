@@ -1,0 +1,13 @@
+//make sure to change package name
+package app; 
+
+
+//make sure to change class name
+public class Question1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
